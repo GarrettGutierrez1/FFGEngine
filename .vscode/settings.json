@@ -1,0 +1,35 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.enhancedColorization": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.autocomplete": "disabled",
+    "clangd.enable": true,
+    "clangd.enableCodeCompletion": true,
+    "clangd.enableHover": true,
+    "clangd.path": "C:/Program Files/LLVM/bin/clangd.exe",
+    "clangd.arguments": [
+        "--query-driver=C:/Users/garrett/Development/w64devkit/bin/gcc.exe,C:/Users/garrett/Development/w64devkit/bin/g++.exe"
+    ],
+    "doxdocgen.c.triggerSequence": "///",
+    "doxdocgen.c.commentPrefix": "/// ",
+    "doxdocgen.c.firstLine": "",
+    "doxdocgen.c.lastLine": "",
+    "files.associations": {
+        "*.cmake": "cmake",
+        "*.cmake.in": "cmake",
+        "*.ctest": "cmake",
+        ".clang-format": "yaml",
+        ".clang-tidy": "yaml",
+        ".clangd": "yaml",
+        "CMakeLists.txt": "cmake",
+        "Doxyfile": "ini"
+    },
+    "[c]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    }
+}

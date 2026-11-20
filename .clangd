@@ -1,0 +1,4 @@
+CompileFlags:
+  Add: [-D__CLANGD__]
+Documentation:
+  CommentFormat: Doxygen
